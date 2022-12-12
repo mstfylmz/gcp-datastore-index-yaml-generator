@@ -5,7 +5,7 @@
     Usage  : export indexes via this command ./google-cloud-sdk/bin/gcloud datastore indexes list > path/output.txt
 '''
 
-main_path = '/Users/n2p-canada-integrate-master/'
+main_path = '/Users'
 file_path = main_path + 'output.txt'
 output_file_path =  main_path +  'output_indexes.yaml'
 file_content = open(file_path, "r")
